@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(99, 98, 97);
+}
+
+.container h1 {
+  margin: 80px 0 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  color: rgb(91, 214, 214);
+  background-color: rgb(104, 104, 104);
+  margin-top: 40px;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+}
+
+table th {
+  border-bottom: 1px solid gray;
+  padding: 10px 20px 20px 5px;
+  font-weight: bold;
+}
+
+table td {
+  border-bottom: 1px solid gray;
+  padding: 8px 20px 5px 5px;
+}
+
+#border {
+  border-left: 1px solid gray;
+}
+
+form input {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid black;
+}
+
+form button {
+  padding: 5px;
+  border-radius: 30px;
+  border: none;
+  border-bottom: 3px solid black;
+}

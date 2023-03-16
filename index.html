@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de contatos</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Lista de contatos</h1>
+      </div>
+    </header>
+
+    <div class="container">
+      <form id="add-number">
+        <input
+          id="contact-name"
+          type="text"
+          placeholder="Nome do contato"
+          required
+        />
+        <input
+          id="contact-number"
+          maxlength="11"
+          type="tel"
+          placeholder="Número do contato"
+          required
+        />
+        <button type="submit">+ Adicionar contato</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nome dos contatos</th>
+            <th id="border">Número</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Júlia</td>
+            <td id="border">11 9 4433-3344</td>
+          </tr>
+          <tr>
+            <td>Gustavo</td>
+            <td id="border">11 9 4030-9060</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
